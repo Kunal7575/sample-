@@ -1,0 +1,131 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+/////write a program to read three integers from a file.
+//
+//    int a,b,c;
+//FILE *ptr;
+//ptr=fopen("kunal.txt","r");
+//fscanf(ptr,"%d %d %d",&a,&b,&c);
+//printf("the values of a b and c is %d %d %d\n",a,b,c);
+
+
+
+
+
+
+
+
+
+
+
+
+// ///write a program to generate multiplication table of a given number in text formt.
+// ///make sure that the file is readable and well formatted.
+//
+// FILE *ptr;
+// int num;
+// printf("emter the integer you need the table of \n");
+// scanf("%d",&num);
+// ptr=fopen("kunalwrite.txt","w");
+// for(int i=0;i<10;i++){
+//    fprintf(ptr,"%d x %d=%d\n",num,i+1,num*(i+1));
+// }
+// fclose(ptr);
+
+
+
+
+
+
+
+
+
+
+
+
+//
+/////write a program to read a text file character by character and write its content twice in a seperate file.
+//
+//FILE *ptr1;
+//FILE *ptr2;
+//ptr1=fopen("kunal3.text","r");
+//ptr2=fopen("harry3lite.text","w");
+//
+//char c=fgetc(ptr1);
+//while(c!=EOF){
+//    fputc(c,ptr2);
+//    fputc(c,ptr2);
+//    c=fgetc(ptr1);
+//}
+//fclose(ptr1);
+//fclose(ptr2);
+
+
+
+
+
+
+
+
+
+
+
+/////Take the name and salary of two employees as input from the user and write them to a text file in the following format.
+/////name 1,3300
+/////name 2,7700
+//
+//FILE * ptr;
+//char x;
+//char z;
+//int y;
+//int a;
+//printf("name 1:\n");
+//scanf("%s",&x);
+//
+//printf("name 2:\n");
+//scanf("%s",&z);
+//
+// printf("salary 1:\n");
+//scanf("%d",&y);
+//
+// printf("salary 2:\n");
+//scanf("%d",&a);
+//ptr=fopen("kunalbusiness5.txt","w");
+//fprintf(ptr,"name1:%s#######salary:%d\n",&x,&y);
+//fprintf(ptr,"name2:%s#######salary:%d\n",&z,&a);
+//fclose(ptr);
+
+
+
+
+
+
+
+
+
+
+
+
+ ///write a program to modify a file containing an integer to double its value.
+
+ FILE *ptr4;
+FILE *ptr5;
+ptr4=fopen("kunalsharma69.text","r");
+ptr5=fopen("rituuuu.text","w");
+
+int c=fgetc(ptr4);
+printf("%d",c);
+while(c!=EOF){
+    fputc(2*c,ptr5);
+
+    c=fgetc(ptr4);
+}
+fclose(ptr4);
+fclose(ptr5);
+
+
+    return 0;
+}
